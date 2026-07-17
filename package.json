@@ -1,0 +1,27 @@
+{
+  "name": "multi-llm-orchestration",
+  "version": "1.0.0",
+  "description": "CLI application that orchestrates multiple LLMs and synthesizes the best response using self-consistency.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "openai",
+    "claude",
+    "gemini",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.112.1",
+    "@google/genai": "^2.12.0",
+    "dotenv": "^17.4.2",
+    "openai": "^6.48.0"
+  }
+}
